@@ -6,6 +6,50 @@
     <title>Document</title>
 </head>
 <body>
-    h13
+  <h1>Formulário de Cadastro</h1>
+  <h2>Preencha seus dados</h2>
+  <form action="cadastro.php" method="get">
+    <input type="text" name="nome" id="inome" placeholder="Nome Completo*">
+    <input type="email" name="email" id="iemail" placeholder="E-mail*">
+    <select name="Estado" id="iest" >
+      <option value=""disabled selected hidden>Estado*</option>
+      <optgroup label="Região Norte">
+        <option value="AC">Acre</option>
+        <option value="AM">Amazonas</option>
+        <option value="RR">Roraima</option>
+        <option value="AP">Amapá</option>
+        <option value="PA">Pará</option>
+        <option value="TO">Tocantins</option>
+        <option value="RO">Rondônia</option>
+    </optgroup>
+    <optgroup label="Região Nordeste">
+        <option value="AL">Alagoas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="MA">Maranhão</option>
+        <option value="PB">Paraíba</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="SE">Sergipe</option>
+    </optgroup>
+    <optgroup label="Região Centro-Oeste">
+        <option value="GO">Goiás</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MT">Mato Grosso</option>
+    </optgroup>
+    <optgroup label="Região Sudeste">
+        <option value="ES">Espírito Santo</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+    </optgroup>
+    <optgroup label="Região Sul">
+        <option value="PR">Paraná</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="SC">Santa Catarina</option>
+    </optgroup>
+    </select>
+    </form>
 </body>
 </html>
