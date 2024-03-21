@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#inome{
+    background-image: url(../imagens/icones/user.png);
+    }
+
+#iemail{
+    background-image: url(../imagens/icones/mail.png);
+}
+
+#iest{
+    background-image: url(../imagens/icones/state.png);
+}

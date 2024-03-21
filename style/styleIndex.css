@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.principal  {
+    background-image: url(../imagens/bannertopo.png);
+    background-size: cover;
+    size: 100vw;
+    width: 100vw;
+    height: 100vh; 
+}
+
+section.projeto {
+    background-color: #1a7fbd;
+ 
+}
