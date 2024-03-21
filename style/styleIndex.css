@@ -12,3 +12,19 @@ section.projeto {
     background-color: #1a7fbd;
  
 }
+#logo{
+    size: 400px;
+}
+
+h2{
+    background-color: #1a7fbd;
+    border: 1px solid red;
+}
+
+footer{
+    background-color: black;
+}
+#ProcSelet{
+    background-color: blue;
+    color: white;
+}
