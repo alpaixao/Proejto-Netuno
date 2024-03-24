@@ -20,13 +20,13 @@ section.principal {
     /* background-image: url(../imagens/bannertopo.png); */
     width: 100vw;
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
 }
 
 #foto{
     border: 1px solid greenyellow;
-
-  max-width: 100%;
+display: inline-block;
+  max-width: 100vw;
   height: auto;
 }
 
@@ -36,12 +36,20 @@ div#logo_proc {
     padding-right: 20px;
 }
 
-img#logo{
+/* img#logo{  ****menu aparecendo
     border: 1px solid red;
     
     display: inline-block;  
     width: 20%;
     height: 20%;
+} */
+
+img#logo{
+    border: 1px solid red;
+    margin: auto;
+    display: block;  
+    width: 30%;
+    height: 30%;
 }
 input#ProcSelet{
     border: 1px solid red;
@@ -70,10 +78,13 @@ li {
 
 
 iframe {
+    display: inline-block;
+    padding: 10px;
     background-color: white;
-    height: 500px;
+    width: 96%;
+    height: 370px;
+    border: none
+    outline: none;
+
 }
 
-iframe  h1 {
-    color: red;
-}

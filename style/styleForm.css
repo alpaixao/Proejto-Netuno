@@ -3,26 +3,55 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 #inome{
     background-image: url(../imagens/icones/user.png);
+    display: inline-flex;
+    padding: 8px 8px 8px 40px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 10px center;
+    width: 100vh;
+    border: 1px solid rgba(128, 128, 128, 0.50);
+
     }
 
 #iemail{
     background-image: url(../imagens/icones/mail.png);
+    display: inline-flex;
+    padding: 8px 8px 8px 40px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 10px center;
+    width: 100vh;
+    border: 1px solid rgba(128, 128, 128, 0.50);
 }
 
 #iest{
     background-image: url(../imagens/icones/state.png);
+    display: inline-flex;
+    padding: 8px 8px 8px 40px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 10px center;
+    width: 90%;
+    border: 1px solid rgba(128, 128, 128, 0.50);
+
 }
 
 h1{
-    color: blueviolet;
-    font-size: 1.5em ;
+    color: rgba(128, 128, 128, 0.479);
+    font-size: 20px ;
+    padding: 10px 10px 10px 20px;
 }
 
-h2{
+h2{ 
+    padding: 5px 20px;
     font-size: 1em;
+    color: #1a7fbd;
 }
