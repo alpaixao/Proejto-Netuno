@@ -15,6 +15,20 @@ header {
     background-color: #1a7fbd;
     display: block; 
 }
+section.principal {
+    display: block;
+    /* background-image: url(../imagens/bannertopo.png); */
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#foto{
+    border: 1px solid greenyellow;
+
+  max-width: 100%;
+  height: auto;
+}
 
 div#logo_proc {
     margin: auto;
@@ -52,13 +66,6 @@ li {
     color: white; 
 }
 
-section.principal {
-    display: block;
-    background-image: url(../imagens/bannertopo.png);
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-}
 
 
 
@@ -68,5 +75,5 @@ iframe {
 }
 
 iframe  h1 {
-    color: blueviolet;
+    color: red;
 }
