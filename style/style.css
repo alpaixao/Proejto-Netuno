@@ -12,6 +12,7 @@ body, html {
 }
 
 section.principal  {
+    display: block;
     background-image: url(../imagens/bannertopo.png);
     background-size: 100%;
     width: 100%;
@@ -19,19 +20,32 @@ section.principal  {
     background-repeat: no-repeat;
 }
 
+iframe{
+    display: flex;
+  background-color: black;
+}
+
 img#logo  {
     display: block;
    margin: auto;
+   padding: 10px;
    width: : 0px;
    height: 20px;
 }
 
-ul{ color: white;
-    display: flex;
-    padding-right: 20px;
+
+
+input#procselet{
+font size: 19px;
+
+}
+ 
+li{ color: white;
+    display: inline;
+    padding: 5px;
     margin: 10px;
     list-style-type: none;
-    
+    text-decoration: none;
 }
 
 section.projeto {
