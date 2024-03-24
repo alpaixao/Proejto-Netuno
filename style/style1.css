@@ -1,25 +1,44 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+       margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
 }
 header {
     background-color: #1a7fbd;
     display: block; 
 }
 
-img#logo{
-    display: block;
+div#logo_proc {
     margin: auto;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+img#logo{
+    border: 1px solid red;
+    
+    display: inline-block;  
     width: 20%;
     height: 20%;
 }
 input#ProcSelet{
-    padding: 5px;
+    border: 1px solid red;
+    position: absolute;
+    right: 3%;    
+    padding: 6px;
     background-color: black;
     color: white;
-    font-size: 0.5em;
+    font-size: 0.6em;
+    border-radius: 5px;
+    
 }
 
 ul {
