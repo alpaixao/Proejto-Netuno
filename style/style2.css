@@ -13,7 +13,6 @@ header{
 }
 
 img#logo{
-    border: 1px solid red;
     margin: auto;
     display: block;  
     width: 30%;
@@ -21,13 +20,14 @@ img#logo{
 }
 
 ul {
-    border: 1px solid red;
     padding: 10px;
 text-align: center;
 }
+
 li {
     display: inline; 
     padding: 10px;
+    font-size: 1rem;
     color: white; 
 }
 
