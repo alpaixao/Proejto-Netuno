@@ -19,6 +19,17 @@ img#logo{
     height: 30%;
 }
 
+input#ProcSelet{
+    position: absolute;
+    right: 3%;    
+    padding: 6px;
+    background-color: black;
+    color: white;
+    font-size: 0.6em;
+    border-radius: 5px;
+    
+} 
+
 ul {
     padding: 10px;
 text-align: center;
