@@ -21,7 +21,7 @@
 
 #iemail{
     background-image: url(../imagens/icones/mail.png);
-    display: inline-flex;
+    display: block;
     padding: 8px 8px 8px 40px;
     margin: 10px;
     background-repeat: no-repeat;
