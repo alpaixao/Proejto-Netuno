@@ -5,7 +5,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    width: auto;
+    width: 100vw;
     height: auto;
 
 }
@@ -14,41 +14,33 @@ body, html {
     width: 100vw;
     height: 100vh;
 }
-header {
 
+header {
     background-color: #1a7fbd;
     display:block; 
-
 }
-section.principal {
-    display: inline;
+
+/* section.principal {
+    /* display: inline; */
     /* background-image: url(../imagens/bannertopo.png); */
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    /* width: 100vw; */
+    /* height: auto;
+    background-size: contain;
+    background-repeat: no-repeat; */
 
-#foto{
+
+div#fotoPrincipal{
     border: 1px solid greenyellow;
-display: inline-block;
-  max-width: 100%;
-  height: auto;
+    display: inline-flex;
+    max-width: 100%;
+    height: auto;
 }
-
-div#logo_proc {
+/* 
+div#logo_proj {
     margin: auto;
     padding: 10px;
     padding-right: 20px;
-}
-
-img#logo{  
-    border: 1px solid red;
-    
-    display: inline-block;  
-    width: 20%;
-    height: 20%;
-}
+} */
 
 img#logo{
     border: 1px solid red;
@@ -57,7 +49,7 @@ img#logo{
     width: 30%;
     height: 30%;
 }
-input#ProcSelet{
+/* input#ProcSelet{
     border: 1px solid red;
     position: absolute;
     right: 3%;    
@@ -67,7 +59,7 @@ input#ProcSelet{
     font-size: 0.6em;
     border-radius: 5px;
     
-}
+} */
 
 ul {
     border: 1px solid red;
@@ -94,10 +86,10 @@ iframe {
 
 img#dev{
     display: inline-block;
-    height: 300px;
+    height: 300px; */
    
 }
-
+ 
 img#container2{
     display: inline-block;
     height: 300px;
