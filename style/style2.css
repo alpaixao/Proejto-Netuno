@@ -14,18 +14,16 @@ header{
 }
 
 img#logo{
-    border: 1px solid red;
-    /* margin: auto; */
+    padding: 15px;
     display: block;  
     width: 30%;
     height: 30%;
 }
 
 input#ProcSelet{
-    border: 1px solid red;
     align-items: center;
     position: absolute;
-    top: 10px;
+    top: 40px;
     right: 5%;
     padding: 6px;
     background-color: black;
@@ -46,7 +44,6 @@ a:hover{
 
 ul {
     display: block;
-    border: 1px solid blue;
     padding: 10px;
     text-align: center;
  
@@ -82,4 +79,8 @@ div.container-foto img{
     width: 100%;
     height: auto;
     
+}
+
+footer {
+    background-color: white;
 }
