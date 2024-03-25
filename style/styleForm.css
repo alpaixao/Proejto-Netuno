@@ -84,18 +84,17 @@ div.container-white2 > h2{
 }
 
 div.container-white2 {
-    display: block;
-    /* border: 1px solid red; */
+    display: block; 
 }
 
 #resp{
-    /* border: 1px solid red; */
-    margin-left: 20px;
+    border-bottom: 1px solid gray;
+    margin: 0px 20px;
 
 }
 .box2 {
     display: inline-block;
     margin-left: ;
-    /* border: 1px solid red; */
-    padding: 10px ;
+    border: 1px solid red;
+    padding: 5px 25px 20px 5px ;
 }
