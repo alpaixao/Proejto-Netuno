@@ -10,12 +10,12 @@ header{
 }
 #foto{ 
     width: 100%;
+    height: auto;
 }
 
 img#logo{
     border: 1px solid red;
-
-    margin: auto;
+    /* margin: auto; */
     display: block;  
     width: 30%;
     height: 30%;
@@ -25,6 +25,7 @@ input#ProcSelet{
     border: 1px solid red;
     align-items: center;
     position: absolute;
+    top: 10px;
     right: 5%;
     padding: 6px;
     background-color: black;
@@ -34,19 +35,27 @@ input#ProcSelet{
     
 } 
 
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: #1d6285 ;
+    transition: 0.5s;
+}
 
 ul {
-    display: inline-block;
+    display: block;
     border: 1px solid blue;
     padding: 10px;
     text-align: center;
+ 
 }
 
 li {
     display: inline; 
     padding: 10px;
-    font-size: 0.8rem;
-    color: white; 
+    font-size: 1rem;
 }
 
 
