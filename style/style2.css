@@ -23,9 +23,9 @@ img#logo{
 
 input#ProcSelet{
     border: 1px solid red;
-
+    align-items: center;
     position: absolute;
-    right: 3%;    
+    right: 5%;
     padding: 6px;
     background-color: black;
     color: white;
@@ -34,31 +34,18 @@ input#ProcSelet{
     
 } 
 
- 
-span#burguer{
-    color: white;
-    cursor: pointer;
-}
-
-span#burguer:hover{
-    color: black;
-}
-
-menu {
-    display: none;
-}
 
 ul {
-    border: 1px solid red;
-
+    display: inline-block;
+    border: 1px solid blue;
     padding: 10px;
-text-align: center;
+    text-align: center;
 }
 
 li {
     display: inline; 
     padding: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: white; 
 }
 
