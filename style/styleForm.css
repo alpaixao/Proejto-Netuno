@@ -8,38 +8,38 @@
 
 #inome{
     background-image: url(../imagens/icones/user.png);
-    display: inline-flex;
+    display: inline-block;
     padding: 8px 8px 8px 40px;
     margin: 10px;
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 10px center;
-    width: 85%;
+    width: 80%;
     border: 1px solid rgba(128, 128, 128, 0.50);
 
     }
 
 #iemail{
     background-image: url(../imagens/icones/mail.png);
-    display: block;
+    display: inline-block;
     padding: 8px 8px 8px 40px;
     margin: 10px;
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 10px center;
-    width: 85%;
+    width: 80%;
     border: 1px solid rgba(128, 128, 128, 0.50);
 }
 
 #iest{
     background-image: url(../imagens/icones/state.png);
-    display: inline-flex;
+    display: inline-block;
     padding: 8px 8px 8px 40px;
     margin: 10px;
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 10px center;
-    width: 95%;
+    width: 92%;
     border: 1px solid rgba(128, 128, 128, 0.50);
 
 }
@@ -50,8 +50,52 @@ h1{
     padding: 10px 10px 10px 20px;
 }
 
-h2{ 
+div.container-white > h2{ 
     padding: 5px 20px;
     font-size: 1em;
     color: #1a7fbd;
+}
+
+div.container-blue > h2{
+    padding: 10px 20px 15px 10px;
+    font-size: 1em;
+    color: white;
+}
+
+div.container-blue{
+    display:  block;
+    text-align: justify;
+    background-color: #2895cd;
+    padding: 15px;
+    color: white; 
+}
+
+.box{
+    display: inline-block;
+    padding: 5px 5px;
+    color: white;
+    text-align: end;
+}
+
+div.container-white2 > h2{
+    padding: 20px 20px;
+    font-size: 1em;
+    color: #1a7fbd;
+}
+
+div.container-white2 {
+    display: block;
+    /* border: 1px solid red; */
+}
+
+#resp{
+    /* border: 1px solid red; */
+    margin-left: 20px;
+
+}
+.box2 {
+    display: inline-block;
+    margin-left: ;
+    /* border: 1px solid red; */
+    padding: 10px ;
 }

@@ -7,7 +7,7 @@
     <title>Formulario</title>
   </head>
   <body>
-      <div class="cadastro">
+      <div class="container-white">
     <h1>Formulário de Cadastro</h1>
     <h2>Preencha seus dados</h2>
     <form action="cadastro.php" method="post" autocomplete="on"><br>
@@ -54,25 +54,28 @@
       </select>
     </div>
     
-    <div>
-      <h2>Conhecimento de Programacao*</h2>
-      <input type="checkbox" name="html" id="ihtml"> <label for="ihtml">HTML</label>
-      <input type="checkbox" name="css" id="icss"> <label for="icss">CSS</label>
-      <input type="checkbox" name="js" id="ijs"> <label for="ijs">JavaScript</label>
-      <input type="checkbox" name="php" id="iphp"> <label for="iphp">PHP</label><br>
-      <input type="checkbox" name=".net" id="i.net"> <label for="i.net">.NET</label>
-      <input type="checkbox" name="vue" id="ivue"> <label for="ivue">Vue.JS</label>
-        <input type="checkbox" name="react" id="ireact"> <label for="ireact">Recat Native</label><br>
-        <input type="checkbox" name="node" id="inode"> <label for="inode">Node</label>
-        <input type="checkbox" name="python" id="ipython"> <label for="ipython">Python</label>
-        <input type="checkbox" name="fluter" id="ifluter"> <label for="ifluter">Fluter</label>
-        <input type="checkbox" name="outras" id="ioutras"> <label for="ioutras">Outras</label> 
+    <div class="container-blue">
+      <h2 class="subtitulo">Conhecimento de Programacao*</h2>
+      <input type="checkbox" name="html" id="ihtml"> <label class="box" for="ihtml">HTML</label>
+      <input type="checkbox" name="css" id="icss"> <label class="box" for="icss">CSS</label>
+      <input type="checkbox" name="js" id="ijs"> <label class="box"  for="ijs">JavaScript</label>
+      <input type="checkbox" name="php" id="iphp"> <label class="box"  for="iphp">PHP</label><br>
+      <input type="checkbox" name=".net" id="i.net"> <label class="box"  for="i.net">.NET</label>
+      <input type="checkbox" name="vue" id="ivue"> <label class="box"  for="ivue">Vue.JS</label>
+      <input type="checkbox" name="react" id="ireact"> <label class="box"  for="ireact">React JS</label>
+        <input type="checkbox" name="react" id="ireact"> <label class="box"  for="ireact">React Native</label><br>
+        <input type="checkbox" name="node" id="inode"> <label class="box"  for="inode">Node</label>
+        <input type="checkbox" name="python" id="ipython"> <label class="box"  for="ipython">Python</label>
+        <input type="checkbox" name="fluter" id="ifluter"> <label  class="box" for="ifluter">Fluter</label>
+        <input type="checkbox" name="outras" id="ioutras"> <label  class="box" for="ioutras">Outras</label> 
       </div>
       
-      <div>
-        <h2>Ja trabalhou com desenvolvimento?</h2>
-        <input type="checkbox" name="nao" id="inao"><label for="inao">Nao</label>
-        <input type="checkbox" name="sim" id="isim"><label for="isim">Sim</label>
+      <div class="container-white2">
+        <h2 class="subtitulo">Ja trabalhou com desenvolvimento?</h2>
+        <div id="resp">
+          <input type="checkbox" name="nao" id="inao"><label class="box2" for="inao">Nao</label>
+          <input type="checkbox" name="sim" id="isim"><label class="box2" for="isim">Sim</label>
+        </div>
         <h3>(*)Campos Obrigatorios</h3>
         <input type="submit" name="Enviar" id="iEnviar">
         <p>
