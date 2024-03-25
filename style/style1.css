@@ -5,6 +5,9 @@
        margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    width: auto;
+    height: auto;
+
 }
 
 body, html {
@@ -82,7 +85,7 @@ iframe {
     padding: 10px;
     background-color: white;
     width: 96%;
-    height: 370px;
+    height: 500px;
     border: none
     outline: none;
 
