@@ -72,7 +72,7 @@ div.container-blue{
 
 .box{
     display: inline-block;
-    padding: 5px 2px;
+    padding: 6px 2px;
     color: white;
     text-align: end;
 }
@@ -94,7 +94,42 @@ div.container-white2 {
 }
 .box2 {
     display: inline-block;
-    margin-left: ;
-    border: 1px solid red;
-    padding: 5px 25px 20px 5px ;
+    padding: 5px 25px 20px 5px; 
+    color: gray;
+    /* border: 1px solid red; */
+}
+
+h3{
+    display: block;
+    padding: 20px;
+    color: #1a7fbd;
+    font-size: 0.6rem;
+    text-align: center;  
+ }
+
+ input#ienviar {
+    display: block;
+    margin: auto;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #1a7fbd;
+    /* border: 1px solid red; */
+ }
+
+input#ienviar:hover{
+    background-color: #059bf8;
+}
+
+h4 {
+    font-size: 0.5rem;
+    margin: 0px 30px;
+    padding: 10px;
+    color: gray;
+    text-align: center;
+}
+
+.destaque-cor{
+    color: #1a7fbd;
 }
