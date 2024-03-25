@@ -13,6 +13,8 @@ header{
 }
 
 img#logo{
+    border: 1px solid red;
+
     margin: auto;
     display: block;  
     width: 30%;
@@ -20,6 +22,8 @@ img#logo{
 }
 
 input#ProcSelet{
+    border: 1px solid red;
+
     position: absolute;
     right: 3%;    
     padding: 6px;
@@ -30,7 +34,23 @@ input#ProcSelet{
     
 } 
 
+ 
+span#burguer{
+    color: white;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
 ul {
+    border: 1px solid red;
+
     padding: 10px;
 text-align: center;
 }
@@ -42,6 +62,8 @@ li {
     color: white; 
 }
 
+
+
 iframe {
     display: block;
     padding: 10px;
@@ -52,28 +74,16 @@ iframe {
     z-index: 2;
 
 }
-
-/* img#dev{
-    display: inline-block;
-    height: 500px; 
-   
-}
- 
-img#container2{
-    display: inline-block;
-    height: 500px;
-     
-} */
-
+/* 
 div.container-foto {
     border: 1px solid red;
     max-width: 100%;
     height: auto;
-}
+} */
 
 div.container-foto img{ 
     border: 1px solid red;
-    width: 50%;
+    width: 100%;
     height: auto;
     
 }
