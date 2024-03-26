@@ -25,11 +25,11 @@ input#ProcSelet{
     position: absolute;
     top: 20px;
     right: 5%;
-    padding: 6px;
+    padding: 10px;
     background-color: black;
     color: white;
-    font-size: 0.6em;
-    border-radius: 5px;
+    font-size: 0.8em;
+    border-radius: 8px;
     
 } 
 
@@ -70,21 +70,6 @@ iframe {
 .projeto{
     background-color:#2895cd;
 }
-
-/* div.container-1{
-  display: inline-block;
-    border: 1px solid greenyellow;
-    width: 100vw;
-    height: auto;
-}
-
-div.container-1 img{  
-    background-color: #2895cd;
-    border: 1px solid black;
-    width: 200px;
-    height: auto;  
-    text-align: center;
-} */
 
 div.container-1 {
     display: inline-block;
@@ -140,7 +125,7 @@ div.container-2 > h1 {
     text-align: left;
 }
 
-#box-row{
+.box-row{
     display: block;
     text-align: center;
     padding: 10px;
@@ -148,6 +133,7 @@ div.container-2 > h1 {
 
 .box-p {
     display: inline-block; 
+    background-color: white;
     margin: 10px 5px ;
     width: 250px;
     height: 150px;
@@ -179,6 +165,7 @@ div.container-2 > h1 {
 }
 
 #jornada-box{
+    display: block;
     /* border: 1px solid red; */
     color: white;
 }
@@ -187,7 +174,7 @@ div.container-2 > h1 {
     /* border: 1px solid red; */
     background-color: white;
     margin: 8px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 6px;
     width: 25px;
 }
@@ -200,8 +187,71 @@ div.container-2 > h1 {
     align-items: center;
     border-radius: 8px;
     background-color: #018fd6;
-    border: 1px solid red;
 }
 
-footer {
+#procSelet2 {
+    /* border: 1px solid red; */
+    display: flex; 
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
 }
+
+#procCor{
+    color: #018fd6;
+    font-size: 1em;}
+    
+    #procSelet2 img {
+        /* border: 1px solid red; */
+        width: 30px;
+        margin-left: 10px;
+        cursor: pointer;        
+    }
+
+    #vetor1 {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    }
+    
+
+    div.container-3 {
+        display: block;
+        margin-top: 50px;
+        display: inline-block; 
+        background-color: #018fd6;  
+        width: 100%;
+        height: 450px;
+        text-align: center; 
+
+    }
+    
+    div.container-3 > h1 {
+       font-size: 2em;
+       text-align: center;
+       padding: 40px 0px;
+       color: white;
+     } 
+   
+    /* div.container-3 > p {
+        width: 200px;
+        height: 300px;
+        padding: 10px 20px;
+        color: black;
+        text-align: left;
+        border: 1px solid red;
+
+    }  */
+    
+     
+
+    footer {
+    }

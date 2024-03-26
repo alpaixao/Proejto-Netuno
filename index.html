@@ -36,7 +36,7 @@
         <section class="projeto">
             <div class="container-1"><img id="dev" src="imagens/dev.png" alt="">
             
-                <h1>O Projeto</h1>
+                <h1 id="projeto">O Projeto</h1>
                 <p>
                     Com o "novo normal" causado pela pandemia do ultimo ano, mais empresas no mundo todo tem aberto oportunidades no modelo Home Office. <br> Alinhado a dereciacao d moeda local , temos um alto indice de rofissionais migrndo para trabalhos em outros paises.
                 </p>
@@ -59,7 +59,7 @@
         </p>
     </div>
 
-    <div id="box-row">
+    <div class="box-row">
         <div class="box-p">
             <h2>Oportunidade</h2>
             <p >
@@ -83,7 +83,7 @@
    <section>
     <div id="vetor">
         <img src="imagens/Elements/Vector2.png" alt="">
-        <h1>Sua Jornada</h1>
+        <h1 id="jornada">Sua Jornada</h1>
             <img src="imagens/Elements/Vector2.png" alt="">
     </div>
     <div id="jornada-box">
@@ -94,28 +94,36 @@
         <p><img src="imagens/icones/group.png" alt="">100% Home Office com plataforma de cursos online.</p>   
         <p><img src="imagens/icones/target.png" alt="">Variedade de áreas dentro da tecnologia</p>
     </div>
-        <p><input type="button" name="ProcessoSeletivo" id="ProcSelet" value="Quero me cadastrar para o Processo Seletivo">
-            <img src="imagens/icones/enter.png" alt="">
-
-        </p>
-        <img src="imagens/icones/enter.png" alt="">
-        <img src="imagens/Elements/Vector1.png" alt="">
+    <p id="procSelet2">Quero me cadastrar para o <span style="color: black;">.</span> <span id="procCor">  Processo Seletivo</span>
+        <label for="imagem-botao"><img src="imagens/icones/enter.png" alt="" id="imagem-enter"></label>
+          <input type="button" name="ProcessoSeletivo"  value="" style="display: none;" id="imagem-botao">
+    </p>
+      
+        <img id="vetor1" src="imagens/Elements/Vector1.png" alt="">
    </section>
    <section>
-    <h1 id="objetivo">Objetivos</h1>
-    <div>
-        <p>
+       <div class="container-3">
+           <h1 id="objetivo">Objetivos</h1>
+           <div class="box-row">
+        <div class="box-p">
             <h2>Otimizar</h2>
-            Otimizar todo processo de contratação chegando a contribuir com uma economia de 40% no processo de recrutamento.
-        </p>
-        <p>
-            <h2>Gerar</h2>
-            Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.
-        </p>
-        <p>
-            <h2>Filtrar</h2>
-            Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios.
-        </p>
+                <p>
+                    Otimizar todo processo de contratação chegando a contribuir com uma economia de 40% no processo de recrutamento.
+                </p>
+        </div>
+            <div class="box-p">
+                <h2>Gerar</h2>
+                <p>
+                    Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.
+                </p>
+            </div>
+            <div class="box-p">
+                <h2>Filtrar</h2>
+                <p>
+                    Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios.
+                </p>
+            </div>
+    </div>
     </div>
 </section>
 <footer>
