@@ -197,7 +197,7 @@ div.container-2 > h1 {
     padding: 15px;
     margin: auto;
     margin-top: 50px;
-    width: 400px;
+    width: 350px;
     border-radius: 10px;
     font-weight: bolder;
     text-align: center;
@@ -226,10 +226,11 @@ div.container-2 > h1 {
     div.container-3 {
         display: block;
         margin-top: 50px;
+        padding-bottom: 50px;
         display: inline-block; 
         background-color: #018fd6;  
         width: 100%;
-        height: 450px;
+        height: auto;
         text-align: center; 
 
     }
