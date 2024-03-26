@@ -37,19 +37,19 @@ a{
     text-decoration: none;
     color: white;
 }
-a:hover{
+#itens a:hover{
     background-color: #1d6285 ;
     transition: 0.5s;
 }
 
-ul {
+#itens ul {
     display: block;
     padding: 10px;
     text-align: center;
  
 }
 
-li {
+#itens li {
     display: inline; 
     padding: 10px;
     font-size: 1rem;
@@ -241,18 +241,92 @@ div.container-2 > h1 {
        padding: 40px 0px;
        color: white;
      } 
-   
-    /* div.container-3 > p {
-        width: 200px;
-        height: 300px;
-        padding: 10px 20px;
-        color: black;
-        text-align: left;
-        border: 1px solid red;
 
-    }  */
-    
-     
+       footer { 
+        display: block;
+        padding: 80px 0px;
+        background-color: black;
+        color: white;
+    }
 
-    footer {
+    #logoNetuno {
+         display: block;
+        align-items: end;
+        width: 180px;
+        /* border: 1px solid red; */
+
+}
+ footer #redeSocial {
+        display: inline-block;
+        /* border: 1px solid red; */
+        margin-right: 80px;
+        /* border: 1px solid red; */
+
+    }
+
+#redeSocial > p {
+    color:white;
+    font-size: 0.6em;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+
+
+}
+
+    #ProcSeletFooter{
+        /* border: 1px solid red; */
+        padding: 10px;
+        height: 40px;
+        margin-right: 80px;
+        border-radius: 8px;
+        background-color: white;
+        font-weight: bolder;
+        text-align: center;
+        cursor: pointer;        
+    }
+    #ProcSeletFooter:hover {
+        background-color: rgb(187, 187, 187);
+    }
+    .redSoc {
+        /* border: 1px solid red; */
+        width: 15px; 
+        margin-top: 10px  ;
+        padding-right: 10px;
+        /* border: 1px solid red; */
+        border-radius: 0px;
+    }
+
+    #listas li{
+        display: block;
+        list-style: none;
+        /* margin-bottom: 10px; */
+        padding: 5px;
+        margin-right: 10px;
+        /* border: 1px solid red; */
+    }
+
+        #listas {
+        /* border: 1px solid red; */
+        border-right: 1px solid white        ;
+        width: 100px;
+
+        }
+
+        #contato{
+        /* border: 1px solid red; */
+        margin-left: 40px;
+ 
+        }
+
+    #contato h3, p {
+        padding-bottom: 10px;
+        /* border: 1px solid red; */
+
+    }
+
+    #final{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+
     }
