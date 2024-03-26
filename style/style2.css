@@ -71,20 +71,51 @@ iframe {
     background-color:#2895cd;
 }
 
-div.container-1 div.cmntainer-2 {
-  display: block;
+/* div.container-1{
+  display: inline-block;
     border: 1px solid greenyellow;
-    max-width: 100%;
+    width: 100vw;
     height: auto;
 }
 
-div.container-1 img{ 
+div.container-1 img{  
     background-color: #2895cd;
-    border: 1px solid yellow;
-    width: 100%;
+    border: 1px solid black;
+    width: 200px;
+    height: auto;  
+    text-align: center;
+} */
+
+div.container-1 {
+    display: inline-block;
+    width: 100vw;
     height: auto;
-    
+    text-align: center; /* Centraliza a imagem horizontalmente */
 }
+
+div.container-1 img {
+    background-color: #2895cd; 
+    width: 200px;
+    height: auto;
+    margin: auto; /* Centraliza a imagem verticalmente */
+    display: block; /* Remove espaçamento extra abaixo da imagem */
+}
+
+div.container-2 {
+    display: inline-block; 
+    width: 100vw;
+    height: auto;
+    text-align: center; /* Centraliza a imagem horizontalmente */
+}
+
+div.container-2 img {
+    background-color: white; 
+    width: 200px;
+    height: auto;
+    margin: auto; /* Centraliza a imagem verticalmente */
+    display: block; /* Remove espaçamento extra abaixo da imagem */
+}
+
 
 footer {
 }
