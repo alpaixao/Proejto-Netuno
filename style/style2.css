@@ -101,6 +101,18 @@ div.container-1 img {
     display: block; /* Remove espaçamento extra abaixo da imagem */
 }
 
+div.container-1 > p {
+    padding: 10px 20px;
+    color: white;
+    text-align: left;
+}
+
+div.container-1 > h1 {
+    text-align: left;
+    padding-left: 20px ;
+    color: rgba(255, 255, 255, 0.644);
+}
+
 div.container-2 {
     display: inline-block; 
     width: 100vw;
@@ -114,6 +126,18 @@ div.container-2 img {
     height: auto;
     margin: auto; /* Centraliza a imagem verticalmente */
     display: block; /* Remove espaçamento extra abaixo da imagem */
+}
+
+div.container-2 > p {
+    padding: 10px 20px;
+    color: black;
+    text-align: left;
+}
+
+div.container-2 > h1 {
+    padding-left: 20px;
+    color: #2895cd;
+    text-align: left;
 }
 
 
