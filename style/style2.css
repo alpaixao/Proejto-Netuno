@@ -32,9 +32,17 @@ input#ProcSelet{
     border-radius: 8px;
     cursor: pointer;
     } 
+
     #ProcSelet:hover{
         border: 1px solid white;
     }
+
+     #sublinhar{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 4px;
+    }
+
 a{
     text-decoration: none;
     color: white;
@@ -60,7 +68,7 @@ a{
 
 
 iframe {
-    display: block;
+    display: flex;
     padding: 10px;
     background-color: white;
     width: 96%;
@@ -158,12 +166,15 @@ div.container-2 > h1 {
 
 #vetor > h1 {
     margin: 20px 0px;
-    color: #018fd6;
-
+    color: #018fd6;    
 }
 
 #vetor img{
     width: 100px;
+}
+
+#vetor360 {
+    transform: rotate(180deg);
 }
 
 #jornada-box{

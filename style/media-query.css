@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+#foto{
+    display: none;
+}
+
+#fotoPrincipal{
+    /* display: flex; */
+    background-color: #1a7fbd;
+    position: relative;
+    background-image: url(../imagens/bannertopo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(0, 255, 34);
+    /* width: 100vw; */
+    height: 1000px ;
+
+}
+  
+iframe {
+    position: absolute;
+    top: 10%;
+    right: 10%; 
+    /* display: flex; */
+    /* float: right; */
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+/* 
+#containerPrinc{
+    background-color: black;
+    background-size: cover;
+    border: 1px solid red;
+
+} */
