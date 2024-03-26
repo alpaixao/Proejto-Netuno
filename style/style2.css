@@ -117,15 +117,15 @@ div.container-2 {
     display: inline-block; 
     width: 100vw;
     height: auto;
-    text-align: center; /* Centraliza a imagem horizontalmente */
+    text-align: center; 
 }
 
 div.container-2 img {
     background-color: white; 
     width: 200px;
     height: auto;
-    margin: auto; /* Centraliza a imagem verticalmente */
-    display: block; /* Remove espaçamento extra abaixo da imagem */
+    margin: auto; 
+    display: block; 
 }
 
 div.container-2 > p {
@@ -143,21 +143,38 @@ div.container-2 > h1 {
 #box-row{
     display: block;
     text-align: center;
-    /* border: 1px solid red; */
+    padding: 10px;
 }
 
 .box-p {
     display: inline-block; 
-    margin: 0px 5px ;
+    margin: 10px 5px ;
     width: 250px;
-    height: 100px;
+    height: 150px;
     padding: 20px;
     vertical-align: top; 
     align-content: center;
     border-radius: 15px;
     box-shadow: 5px 5px 10px ;
-    /* border: 1px solid red; */
+}
 
+.box-p > h2 {
+    padding-bottom: 10px;
+}
+
+#vetor{ 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#vetor > h1 {
+    margin: 5px 10px;
+    color: #018fd6;
+}
+
+#vetor img{
+    width: 100px;
 }
 
 footer {
