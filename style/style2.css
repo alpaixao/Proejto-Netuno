@@ -136,10 +136,29 @@ div.container-2 > p {
 
 div.container-2 > h1 {
     padding-left: 20px;
-    color: #2895cd;
+    color: #018fd6;
     text-align: left;
 }
 
+#box-row{
+    display: block;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.box-p {
+    display: inline-block; 
+    margin: 0px 5px ;
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+    vertical-align: top; 
+    align-content: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px ;
+    /* border: 1px solid red; */
+
+}
 
 footer {
 }
