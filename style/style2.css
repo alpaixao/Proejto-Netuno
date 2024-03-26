@@ -30,9 +30,11 @@ input#ProcSelet{
     color: white;
     font-size: 0.6em;
     border-radius: 8px;
-    
-} 
-
+    cursor: pointer;
+    } 
+    #ProcSelet:hover{
+        border: 1px solid white;
+    }
 a{
     text-decoration: none;
     color: white;
@@ -303,4 +305,5 @@ div.container-2 > h1 {
     #contato  h3,  p { 
         padding-bottom: 5px;
         font-size: 1em;
+        color: yellow;
     }
