@@ -62,25 +62,29 @@ iframe {
     padding: 10px;
     background-color: white;
     width: 96%;
-    height: 650px;
+    height: 680px;
     border: none;
     z-index: 2;
-
 }
-/* 
-div.container-foto {
-    border: 1px solid red;
+
+.projeto{
+    background-color:#2895cd;
+}
+
+div.container-1 div.cmntainer-2 {
+  display: block;
+    border: 1px solid greenyellow;
     max-width: 100%;
     height: auto;
-} */
+}
 
-div.container-foto img{ 
-    border: 1px solid red;
+div.container-1 img{ 
+    background-color: #2895cd;
+    border: 1px solid yellow;
     width: 100%;
     height: auto;
     
 }
 
 footer {
-    background-color: white;
 }

@@ -110,6 +110,7 @@ h3{
  input#ienviar {
     display: block;
     margin: auto;
+    font-size: 1rem;
     color: white;
     width: 80%;
     padding: 10px;
