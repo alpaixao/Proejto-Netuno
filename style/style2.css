@@ -190,11 +190,15 @@ div.container-2 img {
 
 #vetor{ 
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; 
+    /* Centraliza horizontalmente */
+    align-items: center; 
+    /* Centraliza verticalmente */
 }
 
 #vetor > h1 {
+    font-size: 2em;
+    padding: 10px;
     margin: 20px 0px;
     color: #018fd6;    
 }
