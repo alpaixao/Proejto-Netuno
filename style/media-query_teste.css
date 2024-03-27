@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header {
+    background-color: #218BC5;
+
+    }
+nav{ 
+    display: flex;            /* Define o container do header como flexível */
+     justify-content: center; /* Centraliza as caixas horizontalmente */
+    align-items: center;      /* Centraliza as caixas verticalmente */
+    height: 80px;
+}
+
+#foto{
+    display: none;
+}
+
+img#logo{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 180px;
+    height: auto;
+}
+#itens2 ul {
+    display: none;
+}
+
+#itens ul {
+    display: block;
+    padding: 10px;
+    margin: 0px 100px;
+    /* border: 1px solid rgb(145, 255, 0); */
+ }
+
+#itens li { 
+     display: inline; 
+    padding: 0px 25px;
+    font-size: 1rem;
+    /* border: 1px solid red; */
+}
+
+#itens a{
+    text-decoration: none;
+    color: white;
+}
+
+#itens a:hover{
+    border: 1px solid white;
+    padding: 4px;
+    transition: 0.4s;
+    border-radius: 6px;
+}
+
+input#ProcSelet{
+    display: none;
+} 
+
+input#ProcSelet2{
+    display: block;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bolder;
+    border-radius: 8px;
+    cursor: pointer;  
+    /* border: 1px solid red; */
+} 
+#ProcSelet2:hover{
+    border: 1px solid white;
+}
+
+#sublinhar{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 4px;
+}
+
+
+}

@@ -70,21 +70,62 @@ iframe {
     border-radius: 10px;
 }
 
-div.projeto{
-    border: 1px solid blue;
-    display: inline-block;
-}
 
-div.container-1 img{
-    display: block;
-    border: 1px solid red;
-    width: 500px;
-}
+    .projeto {
+        display: flex;
+        align-items: center;
+        height: 600px;
+        border: 1px solid ;
+    }
 
-div.container-1 > h1{
-    display: inline-block;
-    border: 1px solid blue;
+    #dev {
+        float: left;
+        padding: 0px 100px;
+        width: 500px;
+    }
 
-}
+    h1#projeto {
+        font-size: 35px;
+        margin-top: 0;
+        padding-top: 90px;
+    }
+    div.container-1 > p {
+        padding: 10px 20px;
+        color: white;
+        text-align: left;
+        width: 1100px;
+        text-align: justify;
+    }
+
+
+
+
+    .problema {
+        display: inline-block;
+        align-items: center;
+        height: 600px;
+        border: 1px solid ;
+    }
+
+    #container2 {
+        float: left; 
+        padding: 0px 100px;
+        width: 500px;
+    }
+
+    h1#projeto {
+        font-size: 35px;
+        margin-top: 0;
+        padding-top: 90px;
+    }
+    div.container-1 > p {
+        padding: 10px 20px;
+        color: white;
+        text-align: left;
+        width: 1100px;
+        text-align: justify;
+    }
+
+
 
 }
