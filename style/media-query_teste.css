@@ -87,7 +87,7 @@ input#ProcSelet2{
 #foto2 {
     display: block;
     width: 80%;
-    height: auto;
+    height: 100%;
 }
 div#fotoPrincipal{
     background-color: #1A7FBD;
@@ -102,14 +102,46 @@ div#fotoPrincipal iframe  {
     top: 10%;
     right: 10%; 
     padding: 10px;
+    border-radius: 10px;
     background-color: white;
     width: 380px;
     height: 680px;
     border: none;
     z-index: 2;
+}
+
+
+div.container-1 {
+    /* background-color: #1A7FBD; */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+
 
 }
 
-div
+img#dev {
+    background-color: #1A7FBD; 
+    padding: 50px 80px;
+    width: 600px;
+    height: auto;
+
+
+}
+
+#paragrafo1 {
+text-align: left;
+width: 400px;
+color: white;
+
+}
+
+#paragrafo1 > h1 {
+    color: #6ac3fa;
+    font-size: 2em;
+    padding: 20px 0px;
+}
 
 }
