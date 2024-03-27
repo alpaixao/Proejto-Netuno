@@ -266,7 +266,7 @@ div.container-2 img {
     display: flex;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     }
     
@@ -296,7 +296,7 @@ div.container-2 img {
         padding: 40px 10px;
         background-color: black;
         color: white; 
-        border: 1px solid rgb(255, 166, 0);
+        /* border: 1px solid rgb(255, 166, 0); */
     }
 
     #logoNetuno{
