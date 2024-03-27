@@ -99,12 +99,12 @@ div#fotoPrincipal{
 div#fotoPrincipal iframe  {
     position: absolute;
     display: flex;
-    top: 12%;
+    top: 10%;
     right: 10%; 
     padding: 10px;
     background-color: white;
     width: 380px;
-    height: 700px;
+    height: 680px;
     border: none;
     z-index: 2;
     border: 1px solid rgb(255, 0, 157);
