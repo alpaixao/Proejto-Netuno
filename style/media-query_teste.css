@@ -212,7 +212,7 @@ color: black;
     flex-wrap: wrap;
     justify-content: space-between;
     color: white; 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -238,6 +238,132 @@ color: black;
 
 }
 
+#procSelet2 {
+    /* border: 1px solid red; */
+    display: flex; 
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+    width: 430px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid red; */
 
+}
+
+/* footer { 
+    display: flex; 
+   align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 40px 10px;
+    background-color: black;
+    color: white; 
+    border: 1px solid rgb(255, 0, 234);
+}
+
+
+
+#redeSocial{
+    display: inline-block;
+    border: 1px solid rgb(255, 166, 0);
+
+} */
+
+/* ========================================================== */
+
+/* Estilo para o footer */
+footer {
+    background-color: black; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+}
+
+/* Estilo para a div principal */
+#final {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Alinha verticalmente os itens */
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza a div */
+}
+
+/* Estilo para a coluna do logotipo e redes sociais */
+#redeSocial {
+    display: flex;
+    align-items: center;
+}
+
+#logoNetuno {
+    width: 100px; /* Largura do logotipo */
+    margin-right: 20px; /* Espaçamento à direita */
+}
+
+.redSoc {
+    width: 30px; /* Largura dos ícones de redes sociais */
+    margin-right: 10px; /* Espaçamento à direita */
+}
+
+/* Estilo para o botão */
+#ProcSeletFooter {
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+#ProcSeletFooter:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para a lista */
+#listas ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0; /* Remove o espaçamento interno */
+}
+
+#listas li {
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens da lista */
+}
+
+#listas a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #fff; /* Cor do texto */
+    transition: color 0.3s; /* Transição suave */
+}
+
+#listas a:hover {
+    color: #007bff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para a coluna de contato */
+#contato {
+    text-align: right; /* Alinhamento à direita */
+}
+
+#contato h3 {
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+#contato p {
+    margin: 5px 0; /* Espaçamento interno */
+}
+
+#contato a {
+    color: #007bff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s; /* Transição suave */
+}
+
+#contato a:hover {
+    color: #0056b3; /* Cor do texto ao passar o mouse */
+}
 
 }

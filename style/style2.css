@@ -256,18 +256,18 @@ div.container-2 img {
     color: #018fd6;
     font-size: 1em;}
     
-    #procSelet2 img {
-        /* border: 1px solid red; */
+    #procSelet2 img { 
         width: 30px;
         margin-left: 10px;
         cursor: pointer;        
     }
 
-    #vetor1 {
-    /* border: 1px solid red; */
+    #vetor1 { 
     display: flex;
     margin: auto;
     margin-top: 20px;
+    border: 1px solid red;
+
     }
     
 
@@ -296,7 +296,7 @@ div.container-2 img {
         padding: 40px 10px;
         background-color: black;
         color: white; 
-        /* border: 1px solid rgb(255, 166, 0); */
+        border: 1px solid rgb(255, 166, 0);
     }
 
     #logoNetuno{
