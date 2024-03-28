@@ -11,7 +11,7 @@
     <h1>Formulário de Cadastro</h1>
     <h2>Preencha seus dados</h2>
     <form action="cadastro.php" method="post" autocomplete="on"><br>
-      <input type="text" name="nome" id="inome" placeholder="Nome Completo*" autocomplete="additional-name" required><br>
+      <input type="text" name="nome" id="inome" placeholder="Nome Completo*" autocomplete="additional-name" required minlength="5" maxlength="30"><br>
       <input type="email" name="email" id="iemail" placeholder="E-mail*" autocomplete="email" required><br>
       <select name="Estado" id="iest" required >
         <option value=""disabled selected hidden>Estado<span class="destaque-cor">*</span></option>
