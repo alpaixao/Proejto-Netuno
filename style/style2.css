@@ -156,7 +156,7 @@ div.container-2 img {
 #paragrafo2 > p {
     padding: 10px 20px;
     color: black;
-    text-align: left;
+    text-align: justify;
 }
 
 #paragrafo2 > h1 {
