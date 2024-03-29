@@ -141,7 +141,7 @@ color: white;
 
 #paragrafo1 > h1 {
     color: #6ac3fa;
-    font-size: 2em;
+    font-size: 2.5em;
     padding: 20px 0px;
 }
 
@@ -172,9 +172,10 @@ color: black;
 }
 
 #paragrafo2 > h1 {
-    color: #6ac3fa;
-    font-size: 2em;
-    padding: 20px 15px;  
+    color: #018fd6;
+    font-size: 2.5em;
+    padding: 20px 15px;   
+
 }
 
 .box-row{
