@@ -184,10 +184,9 @@ color: black;
     color: #018fd6;
     font-size: 2.5em;
     padding: 20px 15px;   
-
 }
-
-div.box-row{
+ 
+div.box-row{ 
     display: block;
     text-align: center;
     padding: 10px; 
