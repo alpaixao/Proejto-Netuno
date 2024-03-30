@@ -60,7 +60,7 @@ input#ProcSelet{
 
     #itens2 a{
         text-decoration: none;
-        color: #FFF;
+        color: red;
     }
 
 #itens2 a:hover{
