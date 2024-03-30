@@ -60,7 +60,7 @@ input#ProcSelet{
 
     #itens2 a{
         text-decoration: none;
-        color: red;
+        color: #FFF;
     }
 
 #itens2 a:hover{
@@ -79,7 +79,7 @@ border-radius: 6px;
 
 #itens2 li {
     display: inline; 
-    padding: 8px;
+    padding: 6px;
     font-size: 1rem;
 }
 
