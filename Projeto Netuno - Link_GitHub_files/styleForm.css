@@ -3,7 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 #inome{
@@ -54,13 +54,13 @@ h1{
 div.container-white > h2{ 
     padding: 5px 20px;
     font-size: 0.8em;
-    color: #1A7FBD;
+    color: #1a7fbd;
 }
 
 div.container-blue > h2{
     padding: 10px 20px 15px 0px;
     font-size: 1em;
-    color: #FFF;
+    color: white;
 }
 
 div.container-blue{
@@ -87,11 +87,11 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-    background-color: #FFF;   
+    background-color: white;   
 }
 
 input[type="checkbox"]:focus {
-    border-color: #FFF;     
+    border-color: white;     
 }
 
 
@@ -107,10 +107,10 @@ input[type="checkbox"]:focus {
 div.container-white2 > h2{
     padding: 20px 20px;
     font-size: 1em;
-    color: #1A7FBD;
+    color: #1a7fbd;
 }
 
-div.container-#FFF2 {
+div.container-white2 {
     display: block; 
 }
 
@@ -132,7 +132,7 @@ input[type="radio"] {
     appearance: none;        
     width: 16px;              
     height: 16px;             
-    border: 2px solid #1A7FBD;   
+    border: 2px solid #1a7fbd;   
     border-radius: 4px;      
     outline: none;             
     padding: 2px;              
@@ -140,13 +140,13 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-    background-color: #1A7FBD;   
+    background-color: #1a7fbd;   
 }
 
 h3{
     display: block;
     padding: 20px;
-    color: #1A7FBD;
+    color: #1a7fbd;
     font-size: 0.6rem;
     text-align: center;  
  }
@@ -155,7 +155,7 @@ h3{
     display: block;
     margin: auto;
     font-size: 1rem;
-    color: #FFF;
+    color: white;
     width: 80%;
     padding: 10px;
     border-radius: 8px;

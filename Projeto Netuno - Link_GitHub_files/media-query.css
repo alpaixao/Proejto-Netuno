@@ -5,7 +5,7 @@
     *{
         margin: 0px;
         padding: 0px;
-        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
     }
     body, html {
         width: 100vw;
@@ -13,7 +13,7 @@
     }
     
     header {
-    background-color: #1A7FBD;
+    background-color: #218BC5;
 
     }
 nav{ 
@@ -50,11 +50,11 @@ img#logo{
 
 #itens a{
     text-decoration: none;
-    color: #FFF;
+    color: white;
 }
 
 #itens a:hover{
-    border: 1px solid #FFF;
+    border: 1px solid white;
     padding: 4px;
     transition: 0.4s;
     border-radius: 6px;
@@ -67,15 +67,15 @@ input#ProcSelet{
 input#ProcSelet2{
     display: block;
     padding: 10px 30px;
-    background-color: #000;
-    color: #FFF;
+    background-color: black;
+    color: white;
     font-size: 0.8em;
     font-weight: bolder;
     border-radius: 8px;
     cursor: pointer;  
 } 
 #ProcSelet2:hover{
-    border: 1px solid #FFF;
+    border: 1px solid white;
 }
 
 #sublinhar{
@@ -112,7 +112,7 @@ div#fotoPrincipal iframe  {
     right: 10%; 
     padding: 10px;
     border-radius: 10px;
-    background-color: #FFF;
+    background-color: white;
     width: 400px;
     height: 700px;
     border: none;
@@ -143,7 +143,7 @@ img#dev {
 #paragrafo1 {
 text-align: justify;
 width: 400px;
-color: #FFF;
+color: white;
 
 }
 
@@ -165,7 +165,7 @@ div.container-2 {
 }
 
 img#container2 {
-    background-color: #FFF; 
+    background-color: white; 
     padding: 50px 80px;
     width: 550px;
     height: auto;
@@ -176,7 +176,7 @@ img#container2 {
 #paragrafo2 p {
 text-align: justify;
 width: 400px;
-color: #000;
+color: black;
 
 }
 
@@ -208,11 +208,11 @@ div.box-row{
     justify-content: center;
     margin: auto;
     width: 90vw;
-    color: #FFF; 
+    color: white; 
 }
 
 #jornada-box img{
-    background-color: #FFF;
+    background-color: white;
     margin: 8px;
     padding: 10px;
     border-radius: 6px;
@@ -228,14 +228,14 @@ div.box-row{
     width: 380px;
     align-items: center;
     border-radius: 8px;
-    background-color: #1A7FBD;
+    background-color: #018fd6;
 
 }
 
 #procSelet2 {
     display: flex; 
-    background-color: #000;
-    color: #FFF;
+    background-color: black;
+    color: white;
     padding: 15px;
     margin: auto;
     margin-top: 50px;
@@ -252,8 +252,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000; 
-    color: #FFF;
+    background-color: black; 
+    color: white;
     padding: 60px;
    }
 
@@ -277,7 +277,7 @@ footer {
 
 ul#listas {
     display: block;
-    border-right:1px solid #FFF ;    
+    border-right:1px solid white ;    
     }
 
 #listas li {

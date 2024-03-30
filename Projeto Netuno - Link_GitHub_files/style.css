@@ -3,11 +3,11 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{ 
-    background-color: #1A7FBD;
+    background-color: #2895cd;
 }
 
 
@@ -37,8 +37,8 @@ input#ProcSelet{
     top: 15px;
     right: 5%; 
     padding: 10px;
-    background-color: #000;
-    color: #FFF;
+    background-color: black;
+    color: white;
     font-size: 0.6em;
     border-radius: 8px;
     cursor: pointer;  
@@ -46,7 +46,7 @@ input#ProcSelet{
 } 
 
     #ProcSelet:hover{
-        border: 1px solid #FFF;
+        border: 1px solid white;
     }
 
     #sublinhar{
@@ -60,11 +60,11 @@ input#ProcSelet{
 
     #itens2 a{
         text-decoration: none;
-        color: #FFF;
+        color: white;
     }
 
 #itens2 a:hover{
-border: 1px solid #FFF;
+border: 1px solid white;
 padding: 4px;
 transition: 0.4s;
 border-radius: 6px;
@@ -90,7 +90,7 @@ display: none;
 div#fotoPrincipal iframe {
     display: flex;
     padding: 10px;
-    background-color: #FFF;
+    background-color: white;
     width: 96%;
     height: 680px;
     border: none;
@@ -120,7 +120,7 @@ img#dev {
 
 #paragrafo1 {
     padding: 0px 10px;
-    color: #FFF;
+    color: white;
     text-align: justify;
 }
 
@@ -138,7 +138,7 @@ div.container-2 {
 }
 
 div.container-2 img {
-    background-color: #FFF; 
+    background-color: white; 
     width: 200px;
     height: auto;
     display: inline-block; 
@@ -147,13 +147,13 @@ div.container-2 img {
 
 #paragrafo2 > p {
     padding: 10px 20px;
-    color: #000;
+    color: black;
     text-align: justify;
 }
 
 #paragrafo2 > h1 {
     padding-left: 20px;
-    color: #1A7FBD;
+    color: #018fd6;
     text-align: left; 
     font-size: 2em;
 }
@@ -179,7 +179,7 @@ div.container-2 img {
 
 .box-p {
     display: inline-block; 
-    background-color: #FFF;
+    background-color: white;
     margin: 10px 5px ;
     width: 250px;
     height: 150px;
@@ -204,7 +204,7 @@ div.container-2 img {
     font-size: 2em;
     padding: 10px;
     margin: 20px 0px;
-    color: #1A7FBD;    
+    color: #018fd6;    
 }
 
 #vetor img{
@@ -217,11 +217,11 @@ div.container-2 img {
 
 #jornada-box{
     display: block;
-    color: #FFF;
+    color: white;
 }
 
 #jornada-box img{
-    background-color: #FFF;
+    background-color: white;
     margin: 8px;
     padding: 10px;
     border-radius: 6px;
@@ -235,13 +235,13 @@ div.container-2 img {
     width: 380px;
     align-items: center;
     border-radius: 8px;
-    background-color: #1A7FBD;
+    background-color: #018fd6;
 }
 
 #procSelet2 {
     display: flex; 
-    background-color: #000;
-    color: #FFF;
+    background-color: black;
+    color: white;
     padding: 15px;
     margin: auto;
     margin-top: 50px;
@@ -254,7 +254,7 @@ div.container-2 img {
 }
 
 #procCor{
-    color: #1A7FBD;
+    color: #018fd6;
     font-size: 1em;}
     
     #procSelet2 img { 
@@ -276,7 +276,7 @@ div.container-2 img {
         margin-top: 50px;
         padding-bottom: 50px;
         display: inline-block; 
-        background-color: #1A7FBD;  
+        background-color: #018fd6;  
         width: 100%;
         height: auto;
         text-align: center; 
@@ -287,15 +287,15 @@ div.container-2 img {
        font-size: 2em;
        text-align: center;
        padding: 40px 0px;
-       color: #FFF;
+       color: white;
      } 
 
        footer { 
         display: block;
         margin: auto;
         padding: 40px 10px;
-        background-color: #000;
-        color: #FFF; 
+        background-color: black;
+        color: white; 
     }
 
     #logoNetuno{
@@ -319,14 +319,14 @@ div.container-2 img {
         margin-bottom: 28px;
     }
     #ProcSeletFooter:hover{
-        background-color: #000;
-        color: #FFF;
-        border: 1px solid #FFF;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
     }
 
     #listas a{
         text-decoration: none;
-        color: #FFF;
+        color: white;
     }
 
     #listas ul {
@@ -343,8 +343,8 @@ div.container-2 img {
     }
 
     #listas li:hover{
-        background-color: #000;
-        border: 1px solid #FFF;
+        background-color: black;
+        border: 1px solid white;
     }
 
     #contato{
@@ -353,7 +353,7 @@ div.container-2 img {
 
     #contato a{
         text-decoration: none;
-        color: #FFF;
+        color: white;
     }
     
     #contato  h3,  p { 
